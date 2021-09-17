@@ -10,6 +10,7 @@ mv go .software
 mkdir .software/gopackages
 
 # Written environment variable to the .temp_env files
+touch .temp_env
 cat > .temp_env <<EOF
 GO111MODULE=auto
 HOME_DIR=/home/sandbox/.software
